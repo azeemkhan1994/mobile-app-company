@@ -35,7 +35,7 @@ try {
     $email = $_POST['Email'];
     $country = $_POST['ctry'];
     $phone = $_POST['Phone'];
-    $message = $_POST['Comment'];
+    $message = $_POST['Message'];
     $target = $_POST['Target'];
 
     $emailbody = "Name = " . $name . "<br>Email = " . $email . "<br>Country = " . $country . "<br>Phone = " .  $phone .  "<br>Message =" . $message . "<br> Location =" . $target;
