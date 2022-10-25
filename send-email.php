@@ -33,12 +33,12 @@ try {
 
     $name = $_POST['Name'];
     $email = $_POST['Email'];
-    $country = $_POST['ctry'];
+    $interested = $_POST['Interested'];
     $phone = $_POST['Phone'];
     $message = $_POST['Message'];
     $target = $_POST['Target'];
 
-    $emailbody = "Name = " . $name . "<br>Email = " . $email . "<br>Country = " . $country . "<br>Phone = " .  $phone .  "<br>Message =" . $message . "<br> Location =" . $target;
+    $emailbody = "Name = " . $name . "<br>Email = " . $email . "<br>Interested = " . $interested . "<br>Phone = " .  $phone .  "<br>Message =" . $message . "<br> Location =" . $target;
 
     $mail->Subject = "PEBTECHSOLUTIONS Landing Page - CONTACT USER DETAILS!";
     $mail->Body    =     $emailbody;
