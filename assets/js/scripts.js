@@ -409,9 +409,9 @@ roject carousel
 
     const validateNumber = (event) => {
         if (/[0-9()+-]/i.test(event.data) === false) {
-          event.target.value = event.target.value.replace(event.data, "");
+            event.target.value = event.target.value.replace(event.data, "");
         }
-      };
+    };
 
     const inputElements = document.querySelectorAll("[name='Phone']");
     for (let i = 0; i < inputElements.length; i++) {
@@ -585,7 +585,10 @@ roject carousel
             loopDeleting();
         }
 
-        typingEffect();
+        if ($('#word').length !== 0) {
+            typingEffect();
+        }
+
 
     }
 })(jQuery);

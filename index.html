@@ -43,6 +43,9 @@
    <link rel="stylesheet" href="assets/css/owl.theme.css" />
    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
 
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
    <link rel="stylesheet" href="assets/css/style.css" />
 
    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -76,6 +79,7 @@
 
 
    <div id="page" class="site">
+
       <header id="site-header" class="site-header sticky-header header-static">
          <!-- Main Header start -->
          <div class="octf-main-header">
@@ -94,15 +98,30 @@
                            <nav id="site-navigation" class="main-navigation">
                               <ul class="menu">
                                  <li class="current-menu-item current-menu-ancestor">
-                                    <a class="nav-link" href="mailto:info@pebtechsolutions.com">
-                                       <span>
-                                          <i class="fa fa-envelope" aria-hidden="true"></i>
-                                       </span>
-                                       info@pebtechsolutions.com</a>
+                                    <a class="nav-link" style="line-height: 1;" href="mailto:info@pebtechsolutions.com">
+                                       <div class="d-flex align-items-center">
+                                          <i class="fas fa-solid fa-envelope mt-2 mr-3" style="font-size: 1.6rem;"></i>
+                                          <div class="text-left">
+                                             <span class="text-primary fs-7 fw-bold small-text">SEND US A MAIL</span>
+                                             <br>
+                                             <span class="text-lowercase">info@pebtechsolutions.com</span>
+                                          </div>
+                                       </div>
+                                    </a>
                                  </li>
                                  <li>
-                                    <a class="nav-link" href="tel: 888-227-9908 "><span><i class="fa fa-phone"
-                                             aria-hidden="true"></i></span> 888-227-9908 </a>
+                                    <a class="nav-link" href="tel: 888-227-9908 ">
+                                       <a class="nav-link nav-link-hover" style="line-height: 1;" href="tel:8882279908">
+                                          <div class="d-flex align-items-center">
+                                             <i class="fas fa-solid fa-phone mt-2 mr-3" style="font-size: 1.6rem;"></i>
+                                             <div class="text-left">
+                                                <span class="text-primary fs-7 fw-bold small-text">GIVE US A CALL</span>
+                                                <br>
+                                                <span>888-227-9908</span>
+                                             </div>
+                                          </div>
+                                       </a>
+                                    </a>
                                  </li>
                                  <li class="fl-pop">
                                     <a class="nav-link" data-toggle="modal" data-target="#popnow">REQUEST A QUOTE</a>
@@ -147,22 +166,27 @@
             </div>
          </div>
       </header>
+
       <section class="home2-top">
 
          <div class="container">
             <div class="row">
-               <div class="col-lg-7">
+               <div class="col-lg-7 align-self-center">
                   <div class="home2-top-right" style="min-height: 375px;">
                      <h2>
+                        We Devise Custom <span class="color-change" style="font-size: 85px;">iOS</span> &amp; <span
+                           class="color-change" style="font-size: 85px;">Android</span> Mobile Apps
+                     </h2>
+                     <h2 class="d-none">
                         <span class="color-change">Let us Navigate</span>
                         <br />
                         <span>Your Business Potential into a</span>
                         <br />
-                        <span class="color-change d-lg-none">Profitable Digital App</span>
-                        <span class="color-change d-none d-lg-block">
+                        <span class="color-change">Profitable Digital App</span>
+                        <!-- <span class="color-change d-none d-lg-block">
                            <span id="word"></span>
                            <span class="blink">|</span>
-                        </span>
+                        </span> -->
                      </h2>
                   </div>
                </div>
@@ -243,190 +267,97 @@
          </div>
       </section>
 
-      <section class="section-wrapper section-5 pt-0 pb-60">
-         <div class="portfolio-body">
-            <div class="container text-center">
-               <div class="col-sm-12 col-lg-12">
-                  <h2 class="heading-h2 text-uppercase"><span class="font-bold">Our </span> <span
-                        class="font-bold color-change">Work</span></h2>
-                  <p class="color-white pera">WE DELIVERED DISTINGUISHED APPS SUITED BEST WITH OUR CLIENTS PERSONA</p>
-               </div>
-            </div>
-         </div>
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-12 col-lg-12 pd-0">
-                  <div id="demo" class="carousel slide clearfix" data-ride="carousel">
-                     <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                     </ul>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="carousel-img">
-                              <img src="assets/images/crazyfrog-01.png" alt="Careem" width="475" height="586"
-                                 data-aos="fade-up">
-                           </div>
-                           <div class="carousel-content clearfix">
-                              <div class="d-flex editor-choice">
-                                 <img class="logo-imgz" src="assets/images/crazy-frog-logo.png">
-                                 <p class="ml-auto d-flex align-items-center">
-                                    <span class="sprite-img editor-icon"></span>Editors Choice
-                                 </p>
-                              </div>
-                              <h4>Crazy Frog</h4>
-                              <p class="mb-0">A mission based game. Every level has a different mission to score points
-                                 within allocated time and coins.</p>
-                              <div class="portfolio-ratings">
-                                 <div class="row">
-                                    <div class="col-6 col-md-4 col-lg-4 pd-15">
-                                       <a href="https://apkpure.com/crazy-frog/air.com.appcil.crazyfrog">
-                                          <img class="one1" src="assets/images/android-button.png">
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="carousel-img">
-                              <img src="assets/images/gbm-01.png" alt="Careem" width="475" height="586">
-                           </div>
-                           <div class="carousel-content clearfix">
-                              <div class="d-flex editor-choice">
-                                 <img class="logo-imgz" src="assets/images/gbm-logo.png">
-                                 <p class="ml-auto d-flex align-items-center">
-                                    <span class="sprite-img editor-icon"></span>Editors Choice
-                                 </p>
-                              </div>
-                              <h4>GBM - Gulf Business Machines</h4>
-                              <p class="mb-0">GBM is a private company that has been in the industry for 32 years. The
-                                 company currently specializes in the Information Technology and Services, IT Services,
-                                 Enterprise Software areas. </p>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="carousel-img">
-                              <img src="assets/images/fujairah.png" alt="Careem" width="475" height="586">
-                           </div>
-                           <div class="carousel-content clearfix">
-                              <div class="d-flex editor-choice">
-                                 <img class="logo-imgz" src="assets/images/fujairah-logo.png">
-                                 <p class="ml-auto d-flex align-items-center">
-                                    <span class="sprite-img editor-icon"></span>Editors Choice
-                                 </p>
-                              </div>
-                              <h4>FUJAIRAH MUNICIPALITY</h4>
-                              <p class="mb-0">Fujairah Municipality's is a part of plan to provide
-                                 interactive smart channels and mediums for individuals and businesses segments living
-                                 in Fujairah.</p>
-                              <div class="portfolio-ratings">
-                                 <div class="row">
-                                    <div class="col-6 col-md-4 col-lg-4 pd-15">
-                                       <a target="_blank"
-                                          href="https://play.google.com/store/apps/details?id=gov.ae.fujmun.smartfujairah&hl=en&gl=US">
-                                          <img class="one1" src="assets/images/android-button.png">
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
+      <div class="swiper portfolioSwiper py-5">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-4">
+                        <img src="assets/images/pro/dualphone-andriod-00.png" alt="dual phone" class="img-fluid mx-auto"
+                           height="788" width="497" style="height: 525px; width: auto;" />
+                     </div>
+                     <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                           <h2>Crazy Frog</h2>
+                           <p class="mb-4">A mission based game. Every level has a different mission to score
+                              points within allocated time and coins.</p>
 
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="carousel-img">
-                              <img src="assets/images/insurance-bazar.png" alt="Careem" width="475" height="586">
-                           </div>
-                           <div class="carousel-content clearfix">
-                              <div class="d-flex editor-choice">
-                                 <img class="logo-imgz" src="assets/images/insurance-bazar-logo.png">
-                                 <p class="ml-auto d-flex align-items-center">
-                                    <span class="sprite-img editor-icon"></span>Editors Choice
-                                 </p>
-                              </div>
-                              <h4>Insurance Bazaar Field App</h4>
-                              <p class="mb-0">Insurance Bazaar Field APP making the agents digitally enabled the to
-                                 serve the people in insurance matters with unmatched convenience.</p>
-                              <div class="portfolio-ratings">
-                                 <div class="row">
-                                    <div class="col-6 col-md-4 col-lg-4 pd-15">
-                                       <a target="_blank"
-                                          href="https://play.google.com/store/apps/details?id=com.ozoneddigital.insuranceBazaarAgent">
-                                          <img class="one1" src="assets/images/android-button.png">
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="carousel-img">
-                              <img src="assets/images/jubliee-insurance.png" alt="Careem" width="475" height="586">
-                           </div>
-                           <div class="carousel-content clearfix">
-                              <div class="d-flex editor-choice">
-                                 <img class="logo-imgz" src="assets/images/jubliee-insurance-logo.png">
-                                 <p class="ml-auto d-flex align-items-center">
-                                    <span class="sprite-img editor-icon"></span>Editors Choice
-                                 </p>
-                              </div>
-                              <h4>Jubilee i-Insure</h4>
-                              <p class="mb-0">Jubilee i-Insure provides 24/7/365 digital accessibility to customers
-                                 throughout their Insurance journey from policy buying to claim settlement with no
-                                 physical interaction.</p>
-                              <div class="portfolio-ratings">
-                                 <div class="row">
-                                    <div class="col-6 col-md-4 col-lg-4 pd-15">
-                                       <a target="_blank"
-                                          href="https://play.google.com/store/apps/details?id=com.ozoned.jubileehealth.customer">
-                                          <img class="one1" src="assets/images/android-button.png">
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="carousel-img">
-                              <img src="assets/images/SLIC-Digital.png" alt="Careem" width="475" height="586">
-                           </div>
-                           <div class="carousel-content clearfix">
-                              <div class="d-flex editor-choice">
-                                 <img class="logo-imgz" src="assets/images/SLIC-Digital-logo.png">
-                                 <p class="ml-auto d-flex align-items-center">
-                                    <span class="sprite-img editor-icon"></span>Editors Choice
-                                 </p>
-                              </div>
-                              <h4>SLIC Digital</h4>
-                              <p class="mb-0">SLIC Digital is a digital insurance platform, initiative taken by State
-                                 Life Insurance Corporation of Pakistan (SLIC) to empower the people to fulfill all
-                                 their insurance needs on their smart phone screen.</p>
-                              <div class="portfolio-ratings">
-                                 <div class="row">
-                                    <div class="col-6 col-md-4 col-lg-4 pd-15">
-                                       <a target="_blank"
-                                          href="https://play.google.com/store/apps/details?id=com.ozoneddigital.state_life">
-                                          <img class="one1" src="assets/images/android-button.png">
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                           <a data-bs-toggle="modal" data-bs-target="#formModal" class="btn btn-light">
+                              Request Quote
+                           </a>
                         </div>
                      </div>
-                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                     </a>
-                     <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-4">
+                        <img src="assets/images/pro/dualphone-andriod-01.png" alt="dual phone" class="img-fluid mx-auto"
+                           height="788" width="497" style="height: 525px; width: auto;" />
+                     </div>
+                     <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                           <h2>Gulf Business Machines</h2>
+                           <p class="mb-4">GBM is currently specializes in the Information
+                              Technology and Services, IT Services, Enterprise Software areas.</p>
+
+                           <a data-bs-toggle="modal" data-bs-target="#formModal" class="btn btn-light">
+                              Connect With Expert
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-4">
+                        <img src="assets/images/pro/dualphone-andriod-02.png" alt="dual phone" class="img-fluid mx-auto"
+                           height="788" width="497" style="height: 525px; width: auto;" />
+                     </div>
+                     <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                           <h2>Shaheen Air</h2>
+                           <p class="mb-4">Mobile app to facilitate a growing number of Shaheen Air customers,
+                              customers would be able to purchase tickets via this application.</p>
+
+                           <a data-bs-toggle="modal" data-bs-target="#formModal" class="btn btn-light">
+                              Estimate Project
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-md-4">
+                        <img src="assets/images/pro/dualphone-andriod-03.png" alt="dual phone" class="img-fluid mx-auto"
+                           height="788" width="497" style="height: 525px; width: auto;" />
+                     </div>
+                     <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                           <h2>Zoom</h2>
+                           <p class="mb-4">Zoom your phone to any place in the world with two clicks! This app
+                              sets up GPS location so your friends knows where are you now!
+                           </p>
+
+                           <a data-bs-toggle="modal" data-bs-target="#formModal" class="btn btn-light">
+                              Let's Talk
+                           </a>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </section>
+         <div class="swiper-pagination"></div>
+      </div>
+      <!-- // end protfolio .section -->
 
       <section class="section-technology">
          <div class="container">
@@ -434,9 +365,9 @@
                <div class="col-lg-6 mb-4 mb-lg-0">
                   <div class="technology-left">
                      <div class="ot-heading">
-                        <h2 class="main-heading text-white text-uppercase">Taking Pride in our Reflection Milestone</h2>
+                        <h2 class="main-heading text-uppercase">Taking Pride in our Reflection Milestone</h2>
                      </div>
-                     <p class="text-white">WITH OVER TWO DECADES OF HIGH QUALITY SERVICES AND GLOBAL CUSTOMER
+                     <p class="text-dark">WITH OVER TWO DECADES OF HIGH QUALITY SERVICES AND GLOBAL CUSTOMER
                         SATISFACTION, PEBTECH IS A TRUSTED NAME IN BUILDING MOBILE APPLICATIONS AND SOFTWARES.</p>
                      <div class="fl-pop">
                         <a class="nav-link text-uppercase" data-toggle="modal" data-target="#popnow">Connect With
@@ -493,25 +424,27 @@
                <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
                   <div class="misc-box text-white misc-box-bg1">
                      <div class="ot-counter">
-                        <div>
-                           <span class="num" data-to="15" data-time="2000">0</span>
-                           <span>+</span>
+                        <div class="d-flex align-items-center">
+                           <div class="mr-3" style="width: 120px;">
+                              <span class="num" data-to="15" data-time="2000" style="font-size: 50px;">0</span>
+                              <span style="font-size: 50px;">+</span>
+                           </div>
+                           <h5>Countries <br /> Worldwide</h5>
                         </div>
                      </div>
-                     <h5>Countries Worldwide</h5>
-
                   </div>
                </div>
                <div class="col-md-6 col-sm-12">
                   <div class="misc-box misc-box-bg2">
                      <div class="ot-counter">
-                        <div>
-                           <span class="num">4.7</span>
-
+                        <div class="d-flex align-items-center">
+                           <div class="mr-3" style="width: 140px;">
+                              <span class="num" style="font-size: 50px;">4.7</span>
+                              <span style="font-size: 50px;">+</span>
+                           </div>
+                           <h5>Rating</h5>
                         </div>
                      </div>
-                     <h5>Rating</h5>
-
                   </div>
                </div>
             </div>
@@ -1378,7 +1311,33 @@
          </div>
       </section>
 
-      <div class="py-3">
+      <section class="award-section">
+         <div class="heading">
+            <h3>Trusted Partners And Awards</h3>
+            <p class="fl-p">PEBTECH TURNS THE DEVELOPMENT OF RELIABLE AND SCALABLE SOFTWARE SOLUTIONS FOR ANY OS,
+               BROWSER AND DEVICE.</p>
+         </div>
+         <!-- <h1>Trusted Partners And Awards</h1> -->
+         <ul>
+            <li>
+               <img src="assets/images/award/AppFuturaLogo.png" alt="" srcset="">
+            </li>
+            <li>
+               <img src="assets/images/award/AWSLogo.png" alt="" srcset="">
+            </li>
+            <li>
+               <img src="assets/images/award/ClutchLogo.png" alt="" srcset="">
+            </li>
+            <li>
+               <img src="assets/images/award/GoodFrimsLogo.png" alt="" srcset="">
+            </li>
+            <li>
+               <img src="assets/images/award/GoogleRatingLogo.png" alt="" srcset="">
+            </li>
+         </ul>
+      </section>
+
+      <div class="py-3 d-none">
          <div class="row bg-white justify-content-center">
             <div class="col-lg-4">
                <!-- Clutch -->
@@ -1677,10 +1636,24 @@
    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
    <!-- End TrustBox script -->
 
-
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
    <script src="assets/js/captcha.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+      var swiper01 = new Swiper(".portfolioSwiper", {
+         pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+         },
+         autoplay: {
+            delay: 2000,
+         },
+      });
+   </script>
 
 </body>
 
