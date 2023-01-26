@@ -215,7 +215,7 @@ body {
 }
 
 .tech-company {
-  padding: 70px 0px 70px;
+  padding: 70px 0px 0px;
   /* background: url("../images/technology-bg.png") center center / cover no-repeat; */
   width: 100%;
   height: auto;
@@ -251,7 +251,7 @@ body {
 
 .tech-company .technologytabs {
   margin-top: 60px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .tech-company .technologytabs .nav-tabs {
@@ -7081,9 +7081,13 @@ div.tp-bullet:hover {
 }
 
 .home2-top {
-  background-position: 0px 60px;
+  /* background-position: 0px 60px; */
   background-repeat: no-repeat;
   padding: 85px 0px 88px;
+  /* height: 100vh; */
+
+  background-size: cover;
+  background-image: url(../images/pebtech-banner.jpg);
 }
 
 .home2-top-right .small-text {
