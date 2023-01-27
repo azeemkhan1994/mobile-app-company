@@ -591,5 +591,43 @@ roject carousel
 
 
     }
+
+    // Fetch all the forms
+    const forms = document.querySelectorAll("form");
+
+    // Loop over them
+    Array.from(forms).forEach((form) => {
+        form.addEventListener(
+            "submit",
+            (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+
+                if (form.checkValidity() === true) {
+                    var formData = $(form).serialize();
+                    $(form).find("button[type='submit']").attr({ disabled: true });
+                    $.ajax({
+                        type: "POST",
+                        url: "https://pebtechsolutions.com/best-mobile-app-development-company-usa/send-email.php",
+                        dataType: "json",
+                        data: formData,
+                        success: function (response) {
+                            if (response.success) {
+                                form.reset();
+                                location.replace("https://pebtechsolutions.com/thank-you.html");
+                            } else { }
+                        },
+                        error: function (xhr, status, error) {
+                            console.log(xhr);
+                        },
+                    });
+                }
+
+                return false;
+            },
+            false
+        );
+    });
+
 })(jQuery);
 

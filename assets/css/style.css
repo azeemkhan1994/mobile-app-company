@@ -7014,7 +7014,8 @@ div.tp-bullet:hover {
 }
 
 .cta {
-  padding: 55px 65px 200px;
+  /* padding: 55px 65px 200px; */
+  padding: 50px;
   background-image: url("../images/bg-cta1-home1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -10260,4 +10261,84 @@ img.flyingSanta {
   .home2-top-right h2 {
     font-size: 36px;
   }
+}
+
+/* /changes 27-1-2023/ */
+
+.custom-banner {
+  background-color: aquamarine !important;
+  height: 100vh;
+  /* background-image: url(https://www.cubix.co/lp/app/assets/images/app/mash-bg-1.jpg); */
+  background-image: url(../images/bg1.png);
+  /* background-image: url(./assets/images/pebtech-bnr.jpg); */
+
+  background-size: cover;
+}
+
+.custom-banner .site-header {
+  background-color: transparent;
+}
+
+.custom-banner .home2-top {
+  background-image: none;
+}
+
+.custom-banner .form-body {
+  box-shadow: none;
+}
+
+.custom-banner .nav-link {
+  color: white;
+}
+
+.custom-banner .site-header {
+  /* border-bottom: #000; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.custom-banner .nav-link span {
+  color: white !important;
+}
+
+.custom-banner .main-navigation>ul>li::before {
+  background-color: white;
+}
+
+.custom-banner .home2-top {
+  height: calc(100% - 104px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-banner .home2-top-right>h2 {
+  color: white;
+}
+
+.custom-banner .home2-top-right>h2>span {
+  /* color: white !important; */
+}
+
+.custom-menu .logo-black {
+  display: none;
+}
+
+.custom-menu.is-stuck .logo-white {
+  display: none;
+}
+
+.custom-menu.is-stuck .logo-black {
+  display: block;
+}
+
+.custom-menu.is-stuck .nav-link {
+  color: black;
+}
+
+.custom-menu.is-stuck .nav-link span {
+  color: black !important;
+}
+
+.custom-menu.is-stuck .main-navigation>ul>li::before {
+  background-color: #2272f1;
 }
