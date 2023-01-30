@@ -10266,12 +10266,9 @@ img.flyingSanta {
 /* /changes 27-1-2023/ */
 
 .custom-banner {
-  background-color: aquamarine !important;
+  background-color: var(--primary-color) !important;
   height: 100vh;
-  /* background-image: url(https://www.cubix.co/lp/app/assets/images/app/mash-bg-1.jpg); */
   background-image: url(../images/bg1.png);
-  /* background-image: url(./assets/images/pebtech-bnr.jpg); */
-
   background-size: cover;
 }
 
