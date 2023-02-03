@@ -18,8 +18,10 @@
 
             if ($(window).scrollTop() >= site_header) {
                 $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').addClass('is-stuck');
+                $('.custom-banner').addClass('is-stuck-banner');
             } else {
                 $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').removeClass('is-stuck');
+                $('.custom-banner').removeClass('is-stuck-banner');
             }
         }
     });

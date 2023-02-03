@@ -215,7 +215,7 @@ body {
 }
 
 .tech-company {
-  padding: 35px 0px;
+  padding: 70px 0px 0px;
   /* background: url("../images/technology-bg.png") center center / cover no-repeat; */
   width: 100%;
   height: auto;
@@ -232,7 +232,7 @@ body {
 
 .tech-company .heading p {
   color: rgb(0, 0, 0);
-  /* padding-top: 10px; */
+  padding-top: 10px;
 }
 
 .tech-company .heading p span {
@@ -250,7 +250,7 @@ body {
 }
 
 .tech-company .technologytabs {
-  margin-top: 35px;
+  margin-top: 60px;
   /* margin-bottom: 80px; */
 }
 
@@ -301,7 +301,7 @@ body {
 }
 
 .tech-company .tab-content .technologypart {
-  margin-top: 35px;
+  margin-top: 75px;
 }
 
 .tech-company .tab-content .technologypart ul li {
@@ -324,7 +324,7 @@ ul {
 }
 
 .industries .heading {
-  padding-bottom: 35px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -360,19 +360,6 @@ ul {
 }
 
 .industries .box .box-inner:hover {
-  box-shadow: rgb(204, 204, 204) 0px 10px 25px -10px;
-  transition-duration: 1s;
-  transition-delay: 0.1s;
-  transform: translateY(-8px);
-}
-
-.image-box {
-  transition-duration: 1s;
-  transition-delay: 0.1s;
-  transform: perspective(1px) translateZ(0px);
-}
-
-.image-box:hover {
   box-shadow: rgb(204, 204, 204) 0px 10px 25px -10px;
   transition-duration: 1s;
   transition-delay: 0.1s;
@@ -939,9 +926,8 @@ p.pera {
 }
 
 p.fl-p {
-  font-weight: 500;
+  font-weight: 600;
   color: rgb(51, 51, 51);
-  font-size: 18px;
 }
 
 .fl-contact {
@@ -1993,10 +1979,6 @@ a:active {
 
 .is-stuck #site-logo img.logo-scroll {
   display: block;
-}
-
-.is-stuck-banner {
-  height: 65vh !important;
 }
 
 .main-navigation ul {
@@ -4484,7 +4466,7 @@ object {
   display: block;
   color: rgb(255, 255, 255);
   border: 1px solid var(--primary-color);
-  padding: 5px;
+  padding: 15px;
   width: 100%;
   background-color: #3F3E40;
 }
@@ -4501,7 +4483,7 @@ object {
 }
 
 .tech-box h5 {
-  font-size: 22px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.6;
   margin-bottom: 0px;
@@ -6927,7 +6909,7 @@ div.tp-bullet:hover {
 }
 
 .home-about-video {
-  background-image: url("../images/home-about-00.jpg");
+  background-image: url("../images/home-about.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6983,7 +6965,7 @@ div.tp-bullet:hover {
   position: absolute;
   right: -25%;
   bottom: 0px;
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 .img-small .img-small-1 {
@@ -7035,7 +7017,9 @@ div.tp-bullet:hover {
 }
 
 .cta {
-  background-image: url("../images/bg-cta1-home2.jpg");
+  /* padding: 55px 65px 200px; */
+  padding: 50px;
+  background-image: url("../images/bg-cta1-home1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -7120,20 +7104,13 @@ div.tp-bullet:hover {
 }
 
 .home2-top-right h2 {
-  font-size: 44px;
+  font-size: 66px;
   font-weight: 700;
-  /* line-height: 85px; */
+  line-height: 85px;
   margin-bottom: 18px;
   color: rgb(27, 29, 33);
   font-family: Montserrat, sans-serif;
   overflow-wrap: normal;
-}
-
-.home2-top-right p {
-  color: #fff;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  font-weight: 500;
 }
 
 .home2-top-right .sub-text {
@@ -7157,7 +7134,7 @@ div.tp-bullet:hover {
 }
 
 .section-business {
-  padding-top: 40px;
+  padding-top: 90px;
   background-color: rgb(242, 242, 242);
 }
 
@@ -7183,8 +7160,7 @@ div.tp-bullet:hover {
   background-image: url("");
   background-position: 0px 70px;
   background-repeat: no-repeat;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 120px 0px 200px;
 }
 
 .technology-left .ot-heading {
@@ -7192,9 +7168,8 @@ div.tp-bullet:hover {
 }
 
 .technology-left p {
-  /* color: #fff;
-  font-size: 14px;
-  margin-bottom: 0px; */
+  color: rgb(174, 170, 203);
+  margin-bottom: 15px;
 }
 
 .technology-left ul {
@@ -7221,7 +7196,7 @@ div.tp-bullet:hover {
 }
 
 .tech-box {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .tech-box i,
@@ -7554,7 +7529,7 @@ div.tp-bullet:hover {
 }
 
 .service2-v4 {
-  padding: 0px 0px 30px;
+  padding: 0px 0px 205px;
 }
 
 .overlay-image-2 {
@@ -7582,15 +7557,15 @@ div.tp-bullet:hover {
 }
 
 .technology-v4 {
-  background-color: #1a1a1a;
+  background-color: var(--primary-color);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 40px 0px;
+  padding: 123px 0px;
 }
 
 .technology-left {
-  margin-right: 10px;
+  margin-right: 70px;
 
 }
 
@@ -8785,8 +8760,8 @@ svg:not(:root) {
 }
 
 section {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 120px;
+  padding-bottom: 130px;
   position: relative;
 }
 
@@ -9265,9 +9240,9 @@ section {
   }
 
   .cta {
-    /* padding-left: 20px;
+    padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 60px; */
+    padding-bottom: 60px;
   }
 
   .cta h2 {
@@ -10378,102 +10353,4 @@ img.flyingSanta {
 
 .custom-menu.is-stuck .main-navigation>ul>li::before {
   background-color: #2272f1;
-}
-
-.bg-gray-00 {
-  background-color: rgb(242, 242, 242);
-}
-
-.cta-00 {
-  padding: 35px 0;
-  background-size: cover;
-  background-position: center;
-}
-
-.cta-00 .overlay-box {
-  background-image: linear-gradient(to right, #36D1DC 0%, #5B86E5 101%);
-  opacity: 0.3;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.cta-00 .text-box {
-  position: relative;
-  z-index: 2;
-}
-
-.cta-00 h2 {
-  color: #fff;
-}
-
-.swiper-pagination-bullet {
-  border-radius: 0px !important;
-  width: 35px !important;
-}
-
-.heading h2 {
-  font-size: 44px;
-  font-weight: 700;
-  color: rgb(27, 29, 33);
-  font-family: Montserrat, sans-serif;
-  overflow-wrap: normal;
-  line-height: 1.2;
-  margin: 0px 0px 10px;
-}
-
-.heading p {
-  font-size: 20px;
-  letter-spacing: 0.3px;
-  font-weight: 500;
-  line-height: 1.5;
-
-}
-
-.portfolioSwiper .swiper-slide {
-  padding: 35px 0px;
-  background-size: cover;
-}
-
-.industry-block {
-  position: relative;
-  margin: 20px;
-  transition-duration: 1s;
-  transition-delay: 0.1s;
-  transform: perspective(1px) translateZ(0px);
-}
-
-.industry-block:hover {
-  box-shadow: rgb(204, 204, 204) 0px 10px 25px -10px;
-  transition-duration: 1s;
-  transition-delay: 0.1s;
-  transform: translateY(-8px);
-}
-
-.industry-heading {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  text-align: center;
-  font-size: 22px;
-}
-
-.overlay-black {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-  opacity: 0.4;
 }
