@@ -537,7 +537,7 @@ input.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -1996,7 +1996,7 @@ a:active {
 }
 
 .is-stuck-banner {
-  height: 65vh !important;
+  /* height: 65vh !important; */
 }
 
 .main-navigation ul {
@@ -6933,7 +6933,7 @@ div.tp-bullet:hover {
   background-size: cover;
   text-align: center;
   min-height: 400px;
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
   box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 30px 0px;
 }
 
@@ -7103,7 +7103,7 @@ div.tp-bullet:hover {
 .home2-top {
   /* background-position: 0px 60px; */
   background-repeat: no-repeat;
-  padding: 85px 0px 88px;
+  padding: 40px 0px 35px;
   /* height: 100vh; */
 
   background-size: cover;
@@ -10228,6 +10228,14 @@ img.flyingSanta {
   .font-big {
     font-size: 85px;
   }
+
+  .industry-heading {
+    font-size: 22px;
+  }
+
+  .portfolioSwiper .swiper-slide {
+    height: auto !important;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -10307,9 +10315,9 @@ img.flyingSanta {
 
 .custom-banner {
   background-color: var(--primary-color) !important;
-  height: 100vh;
   background-image: url(../images/bg1.png);
   background-size: cover;
+  background-position: center;
 }
 
 .custom-banner .site-header {
@@ -10342,7 +10350,7 @@ img.flyingSanta {
 }
 
 .custom-banner .home2-top {
-  height: calc(100% - 104px);
+  /* height: calc(100% - 104px); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10412,7 +10420,13 @@ img.flyingSanta {
 
 .swiper-pagination-bullet {
   border-radius: 0px !important;
-  width: 35px !important;
+  width: 22px !important;
+  height: 5px !important;
+}
+
+.portfolioSwiper .swiper-slide {
+  padding: 40px 0px;
+  height: 960px;
 }
 
 .heading h2 {
@@ -10465,7 +10479,7 @@ img.flyingSanta {
   margin: 0;
   color: #fff;
   text-align: center;
-  font-size: 22px;
+  font-size: 12px;
 }
 
 .overlay-black {

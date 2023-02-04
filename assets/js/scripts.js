@@ -18,10 +18,17 @@
 
             if ($(window).scrollTop() >= site_header) {
                 $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').addClass('is-stuck');
-                $('.custom-banner').addClass('is-stuck-banner');
+                $('.header_mobile').addClass('is-stuck');
+                // $('.custom-banner').addClass('is-stuck-banner');
+                // $('.dummy-menu').removeClass('d-none');
+                // $('.dummy-menu').addClass('d-block');
             } else {
                 $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').removeClass('is-stuck');
-                $('.custom-banner').removeClass('is-stuck-banner');
+                $('.header_mobile').removeClass('is-stuck');
+
+                // $('.dummy-menu').remove('d-block');
+                // $('.dummy-menu').addClass('d-none');
+                // $('.custom-banner').removeClass('is-stuck-banner');
             }
         }
     });
@@ -510,7 +517,7 @@ roject carousel
         arrows: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
