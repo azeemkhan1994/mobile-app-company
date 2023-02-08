@@ -10230,7 +10230,7 @@ img.flyingSanta {
   }
 
   .industry-heading {
-    font-size: 22px;
+    font-size: 22px !important;
   }
 
   .portfolioSwiper .swiper-slide {

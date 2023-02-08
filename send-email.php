@@ -22,9 +22,12 @@ try {
 
     //Recipients
     $mail->setFrom('info@pebtechsolutions.com');
-    // $mail->addAddress('rashid.latif@pebtechsolutions.com');     // Add a recipient
-    // $mail->addAddress('khurram.khan@pebtechsolutions.com');
-    $mail->addAddress('azeem.khan@pebtechsolutions.com');     // Add a recipient
+    $mail->addAddress('sales@pebtechsolutions.com');     // Add a recipient
+    $mail->addAddress('ahmed.shafi@pebtechsolutions.com');     // Add a recipient
+    $mail->addAddress('rashid.latif@pebtechsolutions.com');     // Add a recipient
+    $mail->addAddress('usman.ahmed@pebtechsolutions.com');     // Add a recipient
+    $mail->addAddress('usmanahmed0262@gmail.com');     // Add a recipient
+
 
 
 
@@ -40,7 +43,7 @@ try {
 
     $emailbody = "Name = " . $name . "<br>Email = " . $email . "<br>Interested = " . $interested . "<br>Phone = " .  $phone .  "<br>Message =" . $message . "<br> Location =" . $target;
 
-    $mail->Subject = "PEBTECHSOLUTIONS Landing Page - CONTACT USER DETAILS!";
+    $mail->Subject = "PEBTECHSOLUTIONS Landing Page UAE - CONTACT USER DETAILS!";
     $mail->Body    =     $emailbody;
 
     $mail->isHTML(true);
